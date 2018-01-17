@@ -1,1 +1,25 @@
+.container{
+    width:90%;
+    margin:10px auto;
+}
 
+h1 {
+  text-align: center;
+}
+
+.btn{
+float:right;
+margin: 10px;
+}
+
+img {
+width: 30px;
+height:30px;
+border-radius:5px;
+}
+tr:nth-child(even){
+   background-color: #fbf2ea;
+}
+tr:nth-child(odd){
+   background-color: #fbe0c9;
+}
