@@ -28,11 +28,11 @@ export default class App extends Component {
     }
 
 fetchRecentCampers(){
-  return axios.get('https://fcctop100.herokuapp.com/api/fccusers/top/recent');
+  return axios.get('https://forum.freecodecamp.org/u?asc=true&period=monthly');
 }
 
 fetchAllTimeCampers(){
-  return axios.get('https://fcctop100.herokuapp.com/api/fccusers/top/alltime');
+  return axios.get('https://forum.freecodecamp.org/u?asc=true&period=all');
 }
 changeView(currentView){
   this.setState({currentView});
